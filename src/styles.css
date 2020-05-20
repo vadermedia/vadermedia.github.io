@@ -1,0 +1,11 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* .full-screen {
+    height:100vh;
+} */

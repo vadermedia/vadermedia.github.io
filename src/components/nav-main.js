@@ -17,10 +17,10 @@ Vue.component('nav-main',{
                         alt="Vader Media" 
                         class="brand-logo center">
                 </router-link>
-                <a @click="initNavigation()" data-target="main-nav" class="sidenav-trigger"><i class="iconify" data-icon="mdi:menu" data-inline="false"></i></a>
+                <a @click="initNavigation()" data-target="main-nav" class="sidenav-trigger"><i class="iconify center" data-icon="mdi:menu" data-inline="false"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><router-link to="/music">Music</router-link></li>
-                    <li><router-link to="/productions">Productions</router-link></li>
+                    <li><router-link to="/productions">Productions</router-link></li>                    
                 </ul>
             </div>
         </nav>

@@ -1,6 +1,6 @@
 Vue.component('nav-side',{
     template : `
-<ul class="sidenav grey darken-3 white-text" id="main-nav">
+<ul class="sidenav black white-text" id="main-nav">
     <li>
         <div class="user-view">
             <div class="background">

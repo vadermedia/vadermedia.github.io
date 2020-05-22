@@ -8,14 +8,14 @@ Vue.component('nav-main',{
     },
     template : `
     <div>
-        <nav class="animated fadeInDown grey darken-4">
+        <nav class="animated fadeInDown black">
             <div class="nav-wrapper">
                 <router-link to="/">
                     <img 
                         src="https://raw.githubusercontent.com/vadermedia/logos/master/VM2.png"
                         height="64px" 
                         alt="Vader Media" 
-                        class="brand-logo center">
+                        class="brand-logo center tooltipped" data-position="bottom" data-tooltip="Home Page">
                 </router-link>
                 <a @click="initNavigation()" data-target="main-nav" class="sidenav-trigger"><i class="iconify center" data-icon="mdi:menu" data-inline="false"></i></a>
                 <ul class="right hide-on-med-and-down">

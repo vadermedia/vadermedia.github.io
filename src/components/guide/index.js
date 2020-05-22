@@ -1,11 +1,8 @@
 Vue.component('guide-one', {
     template : `
 <article class="card-panel grey darken-4">
-    <img src="https://raw.githubusercontent.com/vadermedia/logos/master/VM2.png"
-    alt="Vader Media" 
-    class="responsive-img">
 
-    <div class="container">
+<div class="container">
         <div class="row">
             <h4 class="center">WELCOME TO VADER MEDIA</h4>
             <div class="col s12 m4">

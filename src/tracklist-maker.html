@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.vadermedia.co.za/dist/vue/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <button @click="addSong()">ADD SONG</button>
+        <ul v-for="track in tracklist">
+            <li>{{track.time}} | {{track.artist}} | {{track.title}}</li>
+        </ul>
+    </div>
+
+<script>
+    const playlist = new Vue({
+        el : '#app',
+        data : {
+            tracklist : [],
+        },
+        methods : {
+            addSong() {
+                let song = {}
+                song.time = prompt('Time')
+                song.artist = prompt('Artist')
+                song.title = prompt('Title')
+                this.tracklist.push(song)
+            }
+        }
+    })
+
+</script>
+</body>
+</html>

@@ -6,7 +6,7 @@ Vue.component('nav-footer', {
         }
     },
     template : `
-    <footer class="animated fadeInUp page-footer grey darken-3">
+    <footer class="animated fadeInUp page-footer black">
         <div class="container">
             <div class="row">
             <div class="col l6 s12">
@@ -33,9 +33,9 @@ Vue.component('nav-footer', {
                 <h5 class="white-text">Connect With Us</h5>
                 <ul>
                 <li><a class="grey-text text-lighten-3" href="#!">Send us a message on Messenger</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Make an inquiry</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Submit Content</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Make a booking</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Make an inquiry via emial</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Submit music or visual content</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">booking inquiries</a></li>
                 </ul>
             </div>
             <div class="col l4 offset-l2 s12">

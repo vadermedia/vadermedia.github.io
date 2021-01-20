@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/vadermed/public_html/
-    - /bin/cp -R www $DEPLOYPATH

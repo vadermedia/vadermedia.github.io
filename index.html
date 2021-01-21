@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vader Media | Dev Site</title>
     <link rel="stylesheet" href="./lib/css/materialize.css">
     <link rel="stylesheet" href="./src/styles/css/main.css">
 </head>
-<body>
+<body class="grey darken-2 grey-text text-lighten-2">
     <div class="app">
-        <header class="app__header">
-            <nav class="nav-wrapper transparent">
-                
-            </nav>
-        </header>
-        <main class="app__main container center-align">
-            <div class="card-panel z-depth-1">
-                <h6 class="red-text">THIS SITE IS UNDER CONSTRUCTION</h6>
+        <nav class="deep-purple darken-2">
+            <a href="#" class="brand-logo right">LOGO</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">X</a>
+            <ul class="hide-on-med-and-down">
+                <li><a href="#" class="btn-flat">Link</a></li>
+                <li><a href="#" class="btn-flat">Link</a></li>
+                <li><a href="#" class="btn-flat">Link</a></li>
+                <li><a href="#" class="btn-flat">Link</a></li>
+            </ul>
+        </nav>
+
+        <ul class="sidenav deep-purple" id="mobile-nav">
+            <li><a href="#" class="btn-flat">Link 1</a></li>
+            <li><a href="#" class="btn-flat">Link 2</a></li>
+            <li><a href="#" class="btn-flat">Link 3</a></li>
+            <li><a href="#" class="btn-flat">Link 4</a></li>
+        </ul>
+
+        <main class="container">
+            <div class="card-panel grey">
+                <div class="card-content">
+                    <span class="card-title">Test Title</span>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ut neque dignissimos recusandae unde quas. Ab delectus at beatae est quo rerum doloremque numquam. Perferendis, inventore. Cupiditate nisi mollitia corporis?
+                    </p>
+                </div>
             </div>
         </main>
-        <footer class="app_footer">
-
-        </footer>
     </div>
+
+    <!-- js -->
+    <script src="./lib/js/materialize.min.js"></script>
+    <script src="./src/scripts/js/main.js"></script>
 </body>
 </html>

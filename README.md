@@ -6,5 +6,6 @@ Official GitHub repository for Vader Media (PTY) LTD
 
 ### App
 
-- UI
-- DATA
+- Model
+- View
+- Controller

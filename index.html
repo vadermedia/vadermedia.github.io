@@ -4,11 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developers | Vader Media</title>
-    <link rel="stylesheet" href="./src/index.css">
-    <script type="module" src="./src/index.js"></script>
+
+    <meta property="og:title" content="DJ Bob feat. Soli - New Zone [OUT NOW]">
+    <meta property="og:site_name" content="Vader Music">
+    <meta property="og:url" content="https://music.vadermedia.co.za">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="./cdn/logos-vader-music/light-transparent.png">
+    
+    <title>Vader Music:⭐ DJ Bob feat. Soli - New Zone [OUT NOW]</title>
+    
+    <link rel="shortcut icon" href="./cdn/logos-vader-music/light-transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="./lib/materialize-1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="./lib/animate.css-4.1.1/animate.css">
+    <style>
+        @font-face {
+            font-family: quicksand;
+            src: url(./cdn/fonts/Quicksand-VariableFont_wght.ttf);
+        }
+
+        html, body {
+            margin: 0%;
+            min-height: 100vh;
+            font-family: quicksand;
+        }
+    </style>
 </head>
-<body>
-    <div id="app"></div>
+<body class="black grey-text text-lighten-2">
+    <header>
+        <iframe class="animate__animated animate__zoomIn animate__slow" src="https://open.spotify.com/embed/album/4L4OaJHoJWhcmzoxJ5WTP6" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <img class="responsive-img animate__animated animate__zoomIn animate__slow" src="./cdn/vmp-001/newzonefbcover.jpg" alt="DJ Bob - New Zone">
+        <img class="responsive-img animate__animated animate__zoomIn animate__slow" src="./cdn/logos-vader-music/light-transparent.png" alt="Vader Music Logo">
+    </header>
+    
+    <main>
+        
+        <div class="container">
+            
+            <div class="row animate__animated animate__zoomIn animate__slow">
+                
+                <div class="col s12">
+                    <div class="card grey darken-4">
+                        <span class="card-title"><h6 class="red-text text-darken-4 center">SINGLE</h6></span>
+                        <div class="card-image">
+                            <img class="materialboxed responsive-img" src="./cdn/vmp-001/newzonecdig.jpg" alt="Vader Music Logo">
+                            
+                            <span class="badge center red-text">Brand New</span>
+                            <span class="card-title"><h5 class="red-text text-darken-2 center">DJ Bob feat. Soli</h5></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h4 class="center">Platforms</h4>
+                <ul class="collection">
+                    <li class="collection-item grey-text text-darken-2"><a href="https://open.spotify.com/album/4L4OaJHoJWhcmzoxJ5WTP6?si=pqMxVn0QTiiB_Z1uxhGqJQ" target="_blank"  class="white black-text">Spotify</a></li>
+                    <li class="collection-item grey-text text-darken-2"><a href="https://music.apple.com/za/album/new-zone-feat-soli/1564160560?i=1564160564&ls" target="_blank"  class="white black-text">Apple Music</a></li>
+                    <li class="collection-item grey-text text-darken-2"><a href="https://music.youtube.com/watch?v=nCOfrqy75Dc&feature=share" target="_blank"  class="white black-text">YouTube Music</a></li>
+                </ul>
+            </div>
+
+            <h4 class="center">Podcast</h4>
+            <h5 class="center">Shows</h5>
+            <iframe src="https://castbox.fm/app/castbox/player/id3487218?v=8.22.11&autoplay=0" frameborder="0" width="100%" height="400"></iframe>
+
+            <div class="row">
+                <a href="https://vadermedia.co.za" target="_blank" class="btn-block grey-text">Vader Media (Official Site)</a>
+                <a href="mailto:bookings@vadermedia.co.za?subject=Booking ref-new zone" class="btn-block grey-text">Vader Music Artist Bookings</a>
+                <br>
+                <a href="https://facebook.com/vadermusicSA" target="_blank" class="btn-block grey-text">Like Vader Music on Facebook</a>
+                <a href="https://twitter.com/vader_music" target="_blank" class="btn-block grey-text">Follow Vader Music on Twitter</a>
+            </div>
+        </div>
+        
+        <footer>
+            <h6 class="center grey-text text-darken-1">Copyright Reserved - Vader Media (PTY) LTD &copy; 2021</h6>
+        </footer>
+
+    </main>
+    
+    <!-- src -->
+    <script src="./lib/materialize-1.0.0/js/materialize.min.js"></script>
+    <script>
+       document.addEventListener('DOMContentLoaded', function() {
+            M.toast({html: 'Welcome to Vader Music'})
+
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems, {});
+         });
+    </script>
 </body>
 </html>
